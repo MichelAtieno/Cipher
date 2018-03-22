@@ -38,4 +38,20 @@ reverseString(r);
 function con(a){
   return a+reverseString(r);
 }
-var c=con(a);
+var c=con(a); //do not repeat variables.
+
+
+function length(a){
+   return a.length;
+ }
+ var t=length(a);
+
+function mid(a){
+  return Math.round(a.length/2);
+}
+var m=mid(a);
+
+function word(a){
+  return a.charAt(a.length/2);
+}
+var w=word(a);
