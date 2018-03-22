@@ -20,4 +20,17 @@ function reverseString(a){
  a= r.join('');
  return a;
 }
-reverseString(a)
+reverseString(a);
+
+function add(a) {
+  return f+l; // or return f.concat(l);
+}
+var r=add(a);
+
+function reverseString(r){
+ var s = r.split("");
+ s.reverse();
+ r= s.join('');
+ return r;
+}
+reverseString(r);
