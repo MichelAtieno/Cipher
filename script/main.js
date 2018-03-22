@@ -34,3 +34,8 @@ function reverseString(r){
  return r;
 }
 reverseString(r);
+
+function con(a){
+  return a+reverseString(r);
+}
+var c=con(a);
