@@ -55,3 +55,16 @@ function word(a){
   return a.charAt(a.length/2);
 }
 var w=word(a);
+
+function cat(a){
+  return w+c;
+}
+var d=cat(a);
+
+function reverseString(d){
+ var e = d.split("");
+ e.reverse();
+ d= e.join('');
+ return d;
+}
+reverseString(d);
